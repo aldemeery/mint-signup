@@ -6,12 +6,11 @@
     font-family: inherit;
 }
 
-
 /*=================*/
 
 body {
     font-family: "Nunito";
-    background-color: #ECEEF1;
+    background-color: #eceef1;
 }
 
 i {
@@ -22,7 +21,6 @@ span {
     vertical-align: middle;
     display: inline-block;
 }
-
 
 /*=== Header ====*/
 
@@ -36,7 +34,6 @@ header {
     margin: auto;
     width: 118px;
 }
-
 
 /*=== Container ====*/
 
@@ -57,7 +54,80 @@ header {
     margin: 5px;
 }
 
+.btn-block {
+    margin: auto 0px;
+    width: 100%;
+}
+
 .services {
     text-align: center;
     margin: 15px 0px;
+}
+
+/*=== Form ====*/
+
+.signup-form {
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-bottom: 0px;
+    padding: 30px;
+}
+
+.signup-form h2,
+.signup-form p {
+    text-align: center;
+}
+
+.signup-form p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.signup-form p a {
+    color: #0077c5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 35px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="password"],
+.input-group input[type="tel"] {
+    width: 100%;
+    border-radius: 3px;
+    padding: 7px 10px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+}
+
+.input-group label {
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+.input-group * {
+    display: block;
+}
+
+.disclaimer {
+    text-align: center;
+    font-style: italic;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.form-footer {
+    border: 1px solid #aaa;
+    border-top: 0px;
+    padding: 12px 5px;
+    font-size: 11px;
+}
+
+.form-footer p {
+    width: 80%;
+    margin: auto;
 }
