@@ -6,7 +6,6 @@
     font-family: inherit;
 }
 
-
 /*=================*/
 
 body {
@@ -27,7 +26,6 @@ a {
     color: #0077c5;
 }
 
-
 /*=== Header ====*/
 
 header {
@@ -40,7 +38,6 @@ header {
     margin: auto;
     width: 118px;
 }
-
 
 /*=== Container ====*/
 
@@ -70,7 +67,6 @@ header {
     text-align: center;
     margin: 15px 0px;
 }
-
 
 /*=== Form ====*/
 
@@ -150,6 +146,8 @@ header {
     text-decoration: none;
 }
 
+/*=== Footer ====*/
+
 footer .links a {
     text-decoration: none;
     margin-right: 10px;
@@ -165,4 +163,21 @@ footer {
     margin: 25px auto;
     width: 700px;
     text-align: center;
+}
+
+/*=== Privacy Button ====*/
+
+.privacy-button {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background-color: #323232;
+    border-radius: 3px 3px 0 0;
+}
+
+.privacy-button a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
 }

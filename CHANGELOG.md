@@ -12,3 +12,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   HTML structure for the entire page.
 -   Styling for the header and logo.
 -   Style the form.
+-   Style the footer.
+-   Style the privacy settings button.
