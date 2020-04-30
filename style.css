@@ -6,6 +6,7 @@
     font-family: inherit;
 }
 
+
 /*=================*/
 
 body {
@@ -17,10 +18,15 @@ i {
     vertical-align: middle;
 }
 
-span {
+header span {
     vertical-align: middle;
     display: inline-block;
 }
+
+a {
+    color: #0077c5;
+}
+
 
 /*=== Header ====*/
 
@@ -34,6 +40,7 @@ header {
     margin: auto;
     width: 118px;
 }
+
 
 /*=== Container ====*/
 
@@ -63,6 +70,7 @@ header {
     text-align: center;
     margin: 15px 0px;
 }
+
 
 /*=== Form ====*/
 
@@ -113,6 +121,11 @@ header {
     display: block;
 }
 
+.input-group input[type="password"]::placeholder {
+    font-family: "Material Icons";
+    text-align: right;
+}
+
 .disclaimer {
     text-align: center;
     font-style: italic;
@@ -130,4 +143,26 @@ header {
 .form-footer p {
     width: 80%;
     margin: auto;
+    text-decoration: none;
+}
+
+.form-footer p a {
+    text-decoration: none;
+}
+
+footer .links a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+footer .links a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin: 25px auto;
+    width: 700px;
+    text-align: center;
 }
