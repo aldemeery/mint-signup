@@ -16,34 +16,46 @@
     </head>
 
     <body>
+        <header>
+            <span>
+                Already have an intuit account?
+                <br />
+                <a href="#">I forgot my User ID or Password</a>
+            </span>
+            <span>
+                <a href="#" class="btn">
+                    <i class="material-icons">lock</i> Sign In
+                </a>
+            </span>
+        </header>
         <div class="container">
-            <header>
-                <span>
-                    Already have an intuit account?
-                    <br />
-                    <a href="#">I forgot my User ID or Password</a>
-                </span>
-                <span>
-                    <a href="#">Sign In</a>
-                </span>
-            </header>
-
-            <div class="signup-form">
+            <div>
                 <div class="logo">
-                    <img src="#" alt="Logo" />
+                    <a href="#">
+                        <img src="./images/logo.png" alt="Logo" />
+                    </a>
                 </div>
                 <div class="services">
                     <span class="service">
-                        <i class="material-icons">search</i>
+                        <a href="#">
+                            <img src="./images/mint.png" alt="mint" />
+                        </a>
                     </span>
                     <span class="service">
-                        <i class="material-icons">search</i>
+                        <a href="#">
+                            <img
+                                src="./images/quickbooks.png"
+                                alt="quickbooks"
+                            />
+                        </a>
                     </span>
                     <span class="service">
-                        <i class="material-icons">search</i>
+                        <a href="#">
+                            <img src="./images/trubotax.png" alt="turbotax" />
+                        </a>
                     </span>
                 </div>
-                <div>
+                <div class="signup-form">
                     <form>
                         <h2>Create an Intuit account</h2>
                         <p>
@@ -65,9 +77,10 @@
                                 type="password"
                                 name="password"
                                 id="password"
+                                placeholder="&#xe898;"
                             />
                         </div>
-                        <button type="submit">
+                        <button type="submit" class="btn btn-block">
                             <i class="material-icons">lock</i>
                             Create Account
                         </button>
@@ -76,32 +89,32 @@
                             <a href="#">Terms</a> and have read and acknowledge
                             our <a href="#">Privacy Statement</a>.
                         </p>
-                        <div class="form-footer">
-                            Invisible reCAPTCHA by Google
-                            <a href="#">Privacy Policy</a> and
-                            <a href="#">Terms of Use</a>.
-                        </div>
                     </form>
                 </div>
-            </div>
-
-            <footer>
-                <div class="links">
-                    <a href="#">Legal</a>
-                    <a href="#">Privacy</a>
-                    <a href="#">Security</a>
+                <div class="form-footer">
+                    <p>
+                        Invisible reCAPTCHA by Google
+                        <a href="#">Privacy Policy</a> and
+                        <a href="#">Terms of Use</a>.
+                    </p>
                 </div>
-                <div class="copyright">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Earum error, nisi eligendi aliquid atque maiores inventore
-                    consectetur possimu corporis corrupti omnis molestiae
-                    deserunt ad? Itaque aute.
-                </div>
-            </footer>
-
-            <div class="privacy-button">
-                <a href="#">Privacy Settings</a>
             </div>
+        </div>
+        <footer>
+            <div class="links">
+                <a href="#">Legal</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+            </div>
+            <div class="copyright">
+                © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+                TurboTax, ProConnect and Mint are registered trademarks of
+                Intuit Inc. Terms and conditions, features, support, pricing,
+                and service options subject to change without notice.
+            </div>
+        </footer>
+        <div class="privacy-button">
+            <a href="#">Privacy Settings</a>
         </div>
     </body>
 </html>
