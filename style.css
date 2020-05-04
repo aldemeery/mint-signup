@@ -7,7 +7,7 @@
 }
 
 
-/*=================*/
+/* ================= */
 
 body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -30,7 +30,7 @@ a {
 }
 
 
-/*=== Header ====*/
+/* === Header ==== */
 
 header {
     float: right;
@@ -44,7 +44,7 @@ header {
 }
 
 
-/*=== Container ====*/
+/* === Container ==== */
 
 .container {
     clear: both;
@@ -88,7 +88,7 @@ header {
 }
 
 
-/*=== Form ====*/
+/* === Form ==== */
 
 .signup-form {
     background-color: #fff;
@@ -172,7 +172,7 @@ header {
 }
 
 
-/*=== Footer ====*/
+/* === Footer ==== */
 
 footer .links a {
     color: #505050;
@@ -197,7 +197,7 @@ footer {
 }
 
 
-/*=== Privacy Button ====*/
+/* === Privacy Button ==== */
 
 .privacy-button {
     position: fixed;
