@@ -21,3 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 -   Font size and color.
+
+### Changed
+
+-   Separated icons and text.

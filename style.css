@@ -6,11 +6,11 @@
     font-family: inherit;
 }
 
+
 /*=================*/
 
 body {
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
-        sans-serif;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #505050;
     background-color: #eceef1;
@@ -29,6 +29,7 @@ a {
     color: #0077c5;
 }
 
+
 /*=== Header ====*/
 
 header {
@@ -41,6 +42,7 @@ header {
     margin: auto;
     width: 118px;
 }
+
 
 /*=== Container ====*/
 
@@ -73,7 +75,18 @@ header {
 
 .services a {
     text-decoration: none;
+    color: #6b6c72;
+    font-size: 18px;
+    margin-right: 5px;
+    text-transform: lowercase;
 }
+
+.services img {
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 
 /*=== Form ====*/
 
@@ -158,6 +171,7 @@ header {
     text-decoration: none;
 }
 
+
 /*=== Footer ====*/
 
 footer .links a {
@@ -181,6 +195,7 @@ footer {
     width: 700px;
     text-align: center;
 }
+
 
 /*=== Privacy Button ====*/
 
