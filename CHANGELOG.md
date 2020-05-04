@@ -11,17 +11,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
--   HTML structure for the entire page.
--   Styling for the header and logo.
--   Style the form.
--   Style the footer.
--   Style the privacy settings button.
--   Stickler configuration.
+- HTML structure for the entire page.
+- Styling for the header and logo.
+- Style the form.
+- Style the footer.
+- Style the privacy settings button.
+- Stickler configuration.
 
 ### Fixed
 
--   Font size and color.
+- Font size and color.
+- Stylelint errors.
 
 ### Changed
 
--   Separated icons and text.
+- Separated icons and text.
