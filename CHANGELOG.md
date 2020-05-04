@@ -17,3 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   Style the footer.
 -   Style the privacy settings button.
 -   Stickler configuration.
+
+### Fixed
+
+-   Font size and color.

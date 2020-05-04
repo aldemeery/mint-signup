@@ -9,7 +9,10 @@
 /*=================*/
 
 body {
-    font-family: "Nunito";
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+    font-weight: normal;
+    color: #505050;
     background-color: #eceef1;
 }
 
@@ -31,7 +34,7 @@ a {
 header {
     float: right;
     margin: 20px 20px 60px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .container .logo {
@@ -68,6 +71,10 @@ header {
     margin: 15px 0px;
 }
 
+.services a {
+    text-decoration: none;
+}
+
 /*=== Form ====*/
 
 .signup-form {
@@ -80,6 +87,11 @@ header {
 .signup-form h2,
 .signup-form p {
     text-align: center;
+    font-weight: normal;
+}
+
+.signup-form h2 {
+    margin-bottom: 15px;
 }
 
 .signup-form p {
@@ -90,7 +102,7 @@ header {
 .signup-form p a {
     color: #0077c5;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .input-group {
@@ -110,7 +122,7 @@ header {
 
 .input-group label {
     margin-bottom: 7px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .input-group * {
@@ -149,10 +161,15 @@ header {
 /*=== Footer ====*/
 
 footer .links a {
+    color: #505050;
     text-decoration: none;
     margin-right: 10px;
-    font-weight: bold;
-    color: #000;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.copyright {
+    font-size: 13px;
 }
 
 footer .links a:hover {
@@ -171,7 +188,7 @@ footer {
     position: fixed;
     bottom: 0;
     right: 20px;
-    background-color: #323232;
+    background-color: #6b6c72;
     border-radius: 3px 3px 0 0;
 }
 
