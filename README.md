@@ -8,7 +8,7 @@
 
 ## Live Preview
 
-Click [here](https://rawcdn.githack.com/aldemeery/mint-signup/b81b33eb6ce99235d259af5acbdb482cf93ee862/index.html) for a live preview.
+Click [here](https://raw.githack.com/aldemeery/mint-signup/release-v1.0.0/index.html) for a live preview.
 
 ## Authors
 

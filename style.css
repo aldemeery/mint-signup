@@ -1,183 +1,204 @@
 /* Simple CSS Reset */
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
 }
 
-/*=================*/
+/* ================= */
 
 body {
-    font-family: "Nunito";
-    background-color: #eceef1;
+  font-family: "AvenirNext", Avenir, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #505050;
+  background-color: #eceef1;
 }
 
 i {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 header span {
-    vertical-align: middle;
-    display: inline-block;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 a {
-    color: #0077c5;
+  color: #0077c5;
 }
 
-/*=== Header ====*/
+/* === Header ==== */
 
 header {
-    float: right;
-    margin: 20px 20px 60px;
-    font-size: 13px;
+  float: right;
+  margin: 20px 20px 60px;
+  font-size: 12px;
 }
 
 .container .logo {
-    margin: auto;
-    width: 118px;
+  margin: auto;
+  width: 118px;
 }
 
-/*=== Container ====*/
+/* === Container ==== */
 
 .container {
-    clear: both;
-    margin: auto;
-    width: 400px;
+  clear: both;
+  margin: auto;
+  width: 400px;
 }
 
 .btn {
-    background-color: #0077c5;
-    color: #fff;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 1px solid #444;
-    font-weight: bold;
-    margin: 5px;
+  background-color: #0077c5;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #444;
+  font-weight: bold;
+  margin: 5px;
 }
 
 .btn-block {
-    margin: auto 0px;
-    width: 100%;
+  margin: auto 0;
+  width: 100%;
 }
 
 .services {
-    text-align: center;
-    margin: 15px 0px;
+  text-align: center;
+  margin: 15px 0;
 }
 
-/*=== Form ====*/
+.services a {
+  text-decoration: none;
+  color: #6b6c72;
+  font-size: 18px;
+  margin-right: 5px;
+  text-transform: lowercase;
+}
+
+.services img {
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* === Privacy Button ==== */
+
+.privacy-button {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  background-color: #6b6c72;
+  border-radius: 3px 3px 0 0;
+}
+
+.privacy-button a {
+  padding: 10px 20px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* === Form ==== */
 
 .signup-form {
-    background-color: #fff;
-    border: 1px solid #aaa;
-    border-bottom: 0px;
-    padding: 30px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-bottom: 0;
+  padding: 30px;
 }
 
 .signup-form h2,
 .signup-form p {
-    text-align: center;
+  text-align: center;
+  font-weight: normal;
+}
+
+.signup-form h2 {
+  margin-bottom: 15px;
 }
 
 .signup-form p {
-    font-size: 14px;
-    margin-bottom: 35px;
+  font-size: 14px;
+  margin-bottom: 35px;
 }
 
 .signup-form p a {
-    color: #0077c5;
-    text-decoration: none;
-    font-weight: bold;
+  color: #0077c5;
+  text-decoration: none;
+  font-weight: normal;
 }
 
 .input-group {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .input-group input[type="text"],
 .input-group input[type="email"],
 .input-group input[type="password"],
 .input-group input[type="tel"] {
-    width: 100%;
-    border-radius: 3px;
-    padding: 7px 10px;
-    border: 1px solid #aaa;
-    box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  padding: 7px 10px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
 }
 
 .input-group label {
-    margin-bottom: 7px;
-    font-weight: bold;
+  margin-bottom: 7px;
+  font-weight: normal;
 }
 
 .input-group * {
-    display: block;
-}
-
-.input-group input[type="password"]::placeholder {
-    font-family: "Material Icons";
-    text-align: right;
+  display: block;
 }
 
 .disclaimer {
-    text-align: center;
-    font-style: italic;
-    width: 80%;
-    margin: 40px auto;
+  text-align: center;
+  font-style: italic;
+  width: 80%;
+  margin: 40px auto;
 }
 
 .form-footer {
-    border: 1px solid #aaa;
-    border-top: 0px;
-    padding: 12px 5px;
-    font-size: 11px;
+  border: 1px solid #aaa;
+  border-top: 0;
+  padding: 12px 5px;
+  font-size: 11px;
 }
 
 .form-footer p {
-    width: 80%;
-    margin: auto;
-    text-decoration: none;
+  width: 80%;
+  margin: auto;
+  text-decoration: none;
 }
 
 .form-footer p a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/*=== Footer ====*/
+/* === Footer ==== */
 
 footer .links a {
-    text-decoration: none;
-    margin-right: 10px;
-    font-weight: bold;
-    color: #000;
+  color: #505050;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.copyright {
+  font-size: 13px;
 }
 
 footer .links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer {
-    margin: 25px auto;
-    width: 700px;
-    text-align: center;
-}
-
-/*=== Privacy Button ====*/
-
-.privacy-button {
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-    background-color: #323232;
-    border-radius: 3px 3px 0 0;
-}
-
-.privacy-button a {
-    padding: 10px 20px;
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
+  margin: 25px auto;
+  width: 700px;
+  text-align: center;
 }
