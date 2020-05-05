@@ -2,6 +2,14 @@
 
 > A mimic for the signup form of mint.com
 
+## Screenshot
+
+![screenshot](./images/screenshot.png)
+
+## Live Preview
+
+Click [here](https://raw.githack.com/aldemeery/mint-signup/release-v1.0.0/index.html) for a live preview.
+
 ## Authors
 
 👤 **Shingirayi Innocent**
